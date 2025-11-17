@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Stellar by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<style>
+	* {
+		box-sizing: border-box
+	}
+
+	body {
+		font-family: Verdana, sans-serif;
+		margin: 0
+	}
+
+	.mySlides {
+		display: none
+	}
+
+	img {
+		vertical-align: middle;
+	}
+
+	/* Slideshow container */
+	.slideshow-container {
+		max-width: 700px;
+		position: relative;
+		margin: auto;
+	}
+
+	/* Next & previous buttons */
+	.prev,
+	.next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		padding: 16px;
+		margin-top: -22px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+		user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.prev {
+		left: 0;
+		border-radius: 3px 0 0 3px;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover,
+	.next:hover {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	/* Caption text */
+	.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+		cursor: pointer;
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active,
+	.dot:hover {
+		background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+		animation-name: fade;
+		animation-duration: 1.5s;
+	}
+
+	@keyframes fade {
+		from {
+			opacity: .4
+		}
+
+		to {
+			opacity: 1
+		}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+
+		.prev,
+		.next,
+		.text {
+			font-size: 11px
+		}
+	}
+</style>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<span class="logo"><img src="images/Untitled design.gif" alt="" /></span>
+			<h1>Travel With Sunil</h1>
+			<p>Sri Lankan Tours<br />
+				(+94) 76 828 0188
+			</p>
+			<ul class="icons">
+				<!--<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>-->
+				<li><a href="#" class="icon brands fab fa-whatsapp alt"><span class="label">Whatsapp</span></a></li>
+			</ul>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#intro" class="active">About Me</a></li>
+				<li><a href="#first">Traveller Stories</a></li>
+				<li><a href="#second">Highligts</a></li>
+				<li><a href="#cta">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Introduction -->
+			<section id="intro" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Sunil Ankumburage</h2>
+						</header>
+						<p style="text-align: justify;text-justify: inter-word;">With over 8 years of guiding
+							experience, I proudly share the true beauty and soul of Sri Lanka with every traveler I
+							meet.
+							As a former English teacher, I bring warmth, clarity, and a deep love for storytelling into
+							every journey.
+							I believe every tour is not just a trip, but a chance to create memories that stay in the
+							heart forever.
+							My greatest joy is seeing guests leave with smiles, new experiences, and stories they will
+							cherish for life.</p>
+						<ul class="actions">
+						</ul>
+					</div>
+					<span class="image"><img src="images/my.png" alt="" /></span>
+				</div>
+			</section>
+
+			<!-- First Section -->
+			<section id="first" class="main special">
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+						<img src="images/T1.jpeg" style="width:100%">
+						<p style="color:black">German</p>
+						<p>"Sunil wir hatten dich leider nur vier tage, aber diese waren perfeut. Du hast uns die.`
+							Tour sehr angenehm und besonders"</p>
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/T2.jpeg" style="width:100%">
+						<p style="color:black">Netherland</p>
+						<p>Wij, familie Hooft, reisden 6 dagen met Sunil als gids. Sunil is een ontzettend lieve man met
+							een groot hart. We hebben veel gezien in Sri Lanka. Dankjewel Sunil.</p>
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/T3.jpeg" style="width:100%">
+						<p style="color:black">India</p>
+						<p>इस यात्रा को यादगार बनाने के लिए अपनी पूरी कोशिश करने के लिए शुक्रिया सुनील। आपने मेरी छोटी
+							बेटी को गोद में उठाकर सिगिरिया पर चढ़ाई की। आपकी परवाह के लिए बहुत-बहुत शुक्रिया</p>
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/T4.jpeg" style="width:100%">
+						<p style="color:black">Pakistan</p>
+						<p>سنیل چاچا، آپ بہترین ہیں۔ بہت نرم اور بہت مہربان۔ آپ نے اس سفر کو مزید یادگار بنا دیا۔ جب تک
+							ہم دوبارہ نہیں ملیں گے۔</p>
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">❮</a>
+					<a class="next" onclick="plusSlides(1)">❯</a>
+
+				</div>
+				<!-- <ul class="features">
+									<li>
+										<span ><img src="images/T1.jpeg" alt="" style="border-radius: 50%;" width="300" height="300"/></span>
+										<h3>Ipsum consequat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span ><img src="images/T2.jpeg" alt="" style="border-radius: 50%;" width="300" height="300"/></span>
+										<h3>Amed sed feugiat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span ><img src="images/T3.jpeg" alt="" style="border-radius: 50%;" width="300" height="300"/></span>
+										<h3>India</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+								</ul> -->
+			</section>
+
+			<!-- Second Section -->
+			<section id="second" class="main special">
+				<header class="major">
+					<h2>Ipsum consequat</h2>
+					<p style="text-align: justify;text-justify: inter-word;">Discover Sri Lanka with confidence and comfort. With years of experience in guiding travellers across the island, we offer carefully planned tours, personalised experiences, and reliable support throughout your journey. From breathtaking landscapes to rich cultural heritage, every tour is designed to give you authentic, unforgettable memories. Our commitment to safety, hospitality, and genuine care has earned the trust of hundreds of travellers from around the world.</p>
+				</header>
+				<ul class="statistics">
+					<li class="style1">
+						<span class="icon"></span>
+						<strong>80+</strong>Tours
+					</li>
+					<li class="style2">
+						<span class="icon"></span>
+						<strong>100+</strong> Destination
+					</li>
+					<li class="style3">
+						<span class="icon"></span>
+						<strong>500+</strong> Happy Travellers
+					</li>
+					<li class="style4">
+						<span class="icon"></span>
+						<strong>8+</strong> Years tour guide experience
+					</li>
+					<li class="style5">
+						<span class="icon"></span>
+						<strong>99%</strong> Client satisfaction
+					</li>
+				</ul>
+			</section>
+
+			<!-- Get Started -->
+			<section id="cta" class="main special">
+				<header class="major">
+					<h2>Contact Me</h2>
+					<dl class="alt" style="margin: auto;">
+						<dt>Address:</dt>
+						<dd>130 Ginigath Ela&bull;Ruppewatta &bull;Bokkawala, Kandy</dd>
+						<dt>Phone:</dt>
+						<dd>(+94) 76 828 0188</dd>
+						<dt>Email:</dt>
+						<dd><a href="mailto:sunilankumburage@gmail.com">sunilankumburage@gmail.com</a></dd>
+					</dl>
+				</header>
+
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy;Design By: Sameera De Silva.</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			let i;
+			let slides = document.getElementsByClassName("mySlides");
+			let dots = document.getElementsByClassName("dot");
+			if (n > slides.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = slides.length }
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
+	</script>
+</body>
+
+</html>
